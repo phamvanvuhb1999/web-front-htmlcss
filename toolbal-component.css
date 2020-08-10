@@ -1,0 +1,114 @@
+.toolbal-component {
+	background-color: #ddd;
+	height: 50px;
+	display: flex;
+	position: fixed;
+	top: 5px;
+	width: 100%;
+}
+.toolbal-component .block-1{
+	width: 200px;
+	height: 100%;
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+}
+.toolbal-component .block-2{
+	width: 300px;
+	flex-grow: 1;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	margin: 0 10px;
+}
+.toolbal-component .block-3{
+	width: 200px;
+	flex-grow: 1;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+}
+/*block 1*/
+.toolbal-component .block-1 .logo{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.toolbal-component .block-1 .logo a{
+	color: #4293f5;
+	background-color: #fff;
+}
+
+.toolbal-component .block-1 .search-box{
+	width: auto;
+}
+/*block 2*/
+.toolbal-component .block-2 .home-page{
+	margin-left: 10px;
+	margin-right: 10px;
+	flex-grow: 1;
+}
+
+.toolbal-component .block-2 .market{
+	margin-right: 10px;
+	flex-grow: 1;
+}
+
+.toolbal-component .block-2 .watch{
+	margin-right: 10px;
+	flex-grow: 1;
+}
+
+.toolbal-component .block-2 .friend{
+	margin-right: 10px;
+	flex-grow: 1;
+}
+.toolbal-component .block-2 .ect {
+	flex-grow: 1;
+}
+/*block 3*/
+.toolbal-component .block-3 .personality {
+	display: flex;
+	margin-right: 30px;
+	flex-grow: 1;
+}
+.toolbal-component .block-3 .function-side {
+	display: flex;
+	margin-right: 10px;
+	flex-grow: 1;
+}
+.toolbal-component .block-3 .personality .image {
+	margin-right: 20px;
+}
+.toolbal-component .block-3 .personality .name {
+	margin-right: -20px;
+	padding-top: 6px;
+}
+.toolbal-component .block-3 .function-side .add {
+	margin-right: 20px;
+}
+.toolbal-component .block-3 .function-side .notification {
+	margin-right: 20px;
+}
+.toolbal-component .block-3 .function-side .advanced {
+	margin-right: 0;
+}
+.toolbal-component .block-3 .function-side .message {
+	margin-right: 20px;
+}
+
+
+.toolbal-component a {
+	color: #666;
+}
+
+.toolbal-component .block-3 .image {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.toolbal-component .block-3 .person {
+	display: flex;
+	text-decoration: none;
+}
